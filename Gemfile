@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 #ejemplos 
 
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use mysql as the database for Active Record
@@ -57,3 +59,5 @@ gem 'twitter-bootstrap-rails', '<= 3.2.0'
 # Simplied Form Management
 gem 'simple_form'
 #-----------------------------------------
+
+#probando coment
