@@ -2,7 +2,8 @@ class PagesController < ApplicationController
   #------------------------------------------
   #------ utilizar nuevo layout excepto index
   
-  layout 'pages', except: [:index]
+
+  layout "home_layout", only: [:index]
   
   def index
   end
@@ -18,4 +19,11 @@ class PagesController < ApplicationController
 
   def contacto
   end
+  
+  def signin
+  end
+  
+  def signup
+  end
+  
 end

@@ -13,16 +13,7 @@
     <![endif]-->
 
     <%= stylesheet_link_tag "application", :media => "all" %>
-    <style>
-    /*  .navbar-brand>img {
-        height: 100%;
-        padding: 0px;
-        width: auto;
-      }
-    .navbar-brand {
-      padding: 0px;
-    }*/
-    </style>
+
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <!-- Size should be 144 x 144 pixels -->
     <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
@@ -48,7 +39,8 @@
 
   </head>
   <body>
-
+    
+    <!-- Menu Principal -->
     <div class="navbar navbar-default navbar-static-top">
       <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -68,7 +60,8 @@
         </div>
       </div>
     </div>
-
+    <!-- /Menu Principal -->
+    
     <!-- Container -->
     <div class="container_main container">
         <%= bootstrap_flash %>
@@ -92,5 +85,6 @@
       </div>
     </footer>
     <!-- /Pie de Página -->
+    
   </body>
 </html>
