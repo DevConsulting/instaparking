@@ -55,7 +55,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.block_slider .slider{
+.block_slider .slider, .block_contacto div.panel_contacto{
     float: none;
     display: block;
     margin-left: auto;
@@ -72,9 +72,15 @@ body {
     text-align: center;
 }
 
-.block_buscador h2, .block_slider h2, .block_servicios h2 {
+.block_buscador h2, .block_slider h2, .block_servicios h2, .block_contacto h2 {
     font-size: 25px;
     padding-bottom: 20px;
+}
+
+/* Interna Contacto */
+.block_contacto {
+    padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 .footer {
@@ -118,7 +124,7 @@ body {
         padding-top: 100px;
         padding-bottom: 150px;
     }
-    .block_buscador h2, .block_slider h2, .block_servicios h2 {
+    .block_buscador h2, .block_slider h2, .block_servicios h2, .block_contacto h2 {
         font-size: 50px;
         padding-bottom: 20px;
     }
