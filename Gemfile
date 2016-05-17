@@ -58,6 +58,10 @@ gem 'twitter-bootstrap-rails', '<= 3.2.0'
 
 # Simplied Form Management
 gem 'simple_form'
+
+#gema de autorizacion de logueo con PUNDIT
+gem 'pundit', '~> 1.1'
+
 #-----------------------------------------
 
 #probando coment
